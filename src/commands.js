@@ -26,8 +26,10 @@ export function commandShowAgenda() {
     let config = getConfiguration()
     let files = config.agendaFiles;
     var headlines = []
+    let workspaceFolder = vscode.workspace.workspaceFolders[0].uri.path;
     for (let i =  0; i < files.length; i++) {
-        let pathUri = vscode.Uri.file(files[i]);
+        let parsedFile = files[i].replace('${workspaceFolder}', workspaceFolder);
+        let pathUri = vscode.Uri.file(parsedFile);
         let fileText = fs
             .readFileSync(pathUri.fsPath)
              .toString();
