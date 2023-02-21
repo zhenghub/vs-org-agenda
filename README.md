@@ -17,6 +17,10 @@ For the moment there are four commands:
 - close todo items
 ## Release Notes
 
+### 0.3.1
+#### The 'agendaFiles' setting supports 'workspaceFolder' pattern. 
+Eg: `"org-agenda.agendaFiles": ["${workspaceFolder}/agendaFile.org"]`
+
 ### 0.3.0
 
 - Archiving
