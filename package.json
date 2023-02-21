@@ -1,12 +1,12 @@
 {
-	"name": "vs-org-agenda",
-	"displayName": "vs-org-agenda",
-	"description": "Agenda support for org mode files",
+	"name": "vs-org-agenda-zh",
+	"displayName": "vs-org-agenda-zh",
+	"description": "Agenda support for org mode files. Originate from vs-org-agenda.",
 	"version": "0.3.1",
-	"publisher": "florianwidmer",
+	"publisher": "ZhengHu",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/flwidmer/vs-org-agenda"
+		"url": "https://github.com/zhenghub/vs-org-agenda"
 	},
 	"engines": {
 		"vscode": "^1.35.0"
